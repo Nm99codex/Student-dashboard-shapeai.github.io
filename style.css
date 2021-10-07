@@ -1,0 +1,101 @@
+.project-title{
+    background-color:rgb(68, 68, 68); 
+    padding:5px;
+    margin-bottom:10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    text-shadow: rgb(236, 221, 241) 0.1em 0.1em 0.2em; 
+    color:rgb(228, 245, 75); 
+    text-align: center; 
+}
+
+.nav-link strong:hover{
+    background-color: rgb(80, 80, 75);
+    color:white;
+    border-radius: 9px;
+    padding:9px;
+}
+
+.btn-dark:hover{
+    background-color: yellow;
+    color:black;
+    font-weight: 650;
+    border:2px black solid;
+    border-radius:8px;
+    transition: 0.5s;
+}
+
+.modal-body{
+    background-color: #f0f1d7;
+}
+
+.modal-title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:900;
+}
+
+.form-label{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.design_marks{
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:0;
+}
+
+.card-header{
+    padding:2px;
+    margin-bottom:4px;
+    padding:6px;
+}
+
+.card{
+    background-color: #f0f1d7;
+    padding-top:0;
+    padding:10px;
+    margin:6px;
+    border-radius:10px;
+    border:2px black solid;
+}
+
+.name_title{
+    margin-top:5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:30px;
+}
+.enrollment,.marks,.email{
+    font-weight:650;
+}
+
+.institute{
+    color:green;
+    font-family: monospace;
+    font-size:17px;
+    font-weight:600;
+}
+
+.institute:hover{
+    transition: 0.3s;
+    color:rgb(51, 83, 3);
+}
+
+.percentage{
+    font-weight:650;
+}
+
+span{
+    color:red;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-brand{
+        display: none;;
+    }
+
+    .project-title{
+        font-size:30px;
+    }
+  }
