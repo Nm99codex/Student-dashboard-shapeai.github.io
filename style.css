@@ -82,6 +82,7 @@
     color:rgb(51, 83, 3);
 }
 
+
 .percentage{
     font-weight:650;
 }
@@ -92,7 +93,7 @@ span{
 
 @media screen and (min-width: 768px) {
     .navbar-brand{
-        display: none;;
+        /* display: none;; */
     }
 
     .project-title{
