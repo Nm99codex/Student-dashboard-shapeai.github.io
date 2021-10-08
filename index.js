@@ -1,3 +1,10 @@
+const userid = () =>
+{
+    userName = document.querySelector("#UserName").value;
+    document.querySelector("#user-name").innerHTML = `${userName}`;
+}
+
+
 let globalTaskData =[];
 taskContents = document.getElementById("taskContentsrow");
 const taskModal = document.querySelector(".modal-content");
