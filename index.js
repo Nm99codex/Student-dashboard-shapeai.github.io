@@ -1,9 +1,8 @@
 const userid = () =>
 {
     userName = document.querySelector("#UserName").value;
-    document.querySelector("#user-name").innerHTML = `${userName}`;
+    document.querySelector("#login-id").innerHTML = `${userName}`;
 }
-
 
 let globalTaskData =[];
 taskContents = document.getElementById("taskContentsrow");
@@ -26,14 +25,10 @@ const myDetails = () => {
     saveToLocalStorage();
 }
 
+let result_details = [];
+
 const addDetails = ({id, st_name, st_enrollment, st_email, st_institution, st_url, st_cplus, st_javascript}) =>
 {
-    const result = {
-        mark : Number(st_cplus) + Number(st_javascript),
-        name : st_name
-    }
-    student_result.push(result);
-
     return (`
     <div class = "card col-md-6 col-lg-3 mt-3" id = ${id} key = ${id}>
         <div class="card-header bg-dark d-flex justify-content-between">
@@ -181,3 +176,4 @@ const saveEdit = (e) =>
     saveToLocalStorage();
     window.location.reload();
 }
+
